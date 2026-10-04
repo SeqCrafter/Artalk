@@ -204,7 +204,7 @@ jobs:
           VERSION: ${{ inputs.version }}
         run: |
           if [[ ! "$VERSION" =~ ^v?[0-9]+\.[0-9]+\.[0-9]+ ]]; then
-            echo "Invalid version: $VERSION"
+            echo "Invalid version!: $VERSION"
             exit 1
           fi
           VERSION_CLEAN="${VERSION#v}"
