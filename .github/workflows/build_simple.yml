@@ -22,7 +22,7 @@ permissions:
 
 env:
   DIGEST_DIR: /tmp/digests
-  DOCKER_IMG: artalk/artalk-go
+  DOCKER_IMG: xiaohanys91/artalk-go
 
 jobs:
   ui:
